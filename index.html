@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Triange calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="result">
+            <canvas id="canvas"></canvas>
+            <p id="info"></p>
+            <p id="type"></p>
+        </div>
+
+        <div class="fields">
+            <span class="input-wrap">
+                <label for="a">A side </label>
+                <input 
+                    type="number" 
+                    name="a" 
+                    id="a"  
+                    onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57" >
+                    <br>
+            </span>
+
+            <span class="input-wrap">
+                <label for="b">B side </label>
+                <input
+                    type="number" 
+                    name="b" 
+                    id="b"
+                    onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57" >
+                    <br>
+            </span>
+
+            <span class="input-wrap">
+                <label for="c">C side </label>
+                <input 
+                    type="number" 
+                    name="c" 
+                    id="c"
+                    onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57" >
+                    <br>
+            </span>
+        
+            <button 
+                class="button">
+                CALCULATE        
+            </button>
+          
+        </div>
+     
+    </div>
+    </body>
+    <script src="./JS/theme.js"></script>
+ 
+    <script>
+       
+    </script>
+</html>
