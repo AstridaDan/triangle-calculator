@@ -80,6 +80,12 @@ function formula(){
   ctx.fill();
   ctx.stroke();
 
+  let displayX = document.getElementById("hiddenX");
+  let displayY = document.getElementById("hiddenY");
+
+  displayX.innerHTML =  x;
+  displayY.innerHTML = y;
+
   console.log("Cx:", x);
   console.log("Cy:",y);
 }
