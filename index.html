@@ -12,13 +12,14 @@
         <div class="result">
             <canvas id="canvas"></canvas>
             <p id="info"></p>
-            <p id="type"></p>
+            <p data-testId="type" id="type"></p>
         </div>
 
         <div class="fields">
             <span class="input-wrap">
                 <label for="a">A side </label>
                 <input 
+                    data-testId="aSide"
                     type="number" 
                     name="a" 
                     id="a"  
@@ -29,6 +30,7 @@
             <span class="input-wrap">
                 <label for="b">B side </label>
                 <input
+                    data-testId="bSide"
                     type="number" 
                     name="b" 
                     id="b"
@@ -39,6 +41,7 @@
             <span class="input-wrap">
                 <label for="c">C side </label>
                 <input 
+                    data-testId="cSide"
                     type="number" 
                     name="c" 
                     id="c"
@@ -47,6 +50,7 @@
             </span>
         
             <button 
+                data-testId="button"
                 class="button"
                 onclick="triangle(document.getElementById('a').valueAsNumber, 
                 document.getElementById('b').valueAsNumber, 
@@ -57,10 +61,9 @@
         </div>
      
     </div>
+    <p data-testId="Cx" id="hiddenX"></p>
+    <p data-testId="Cy" id="hiddenY"></p>
+    
     </body>
     <script src="./JS/theme.js"></script>
- 
-    <script>
-       
-    </script>
 </html>
