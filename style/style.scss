@@ -7,10 +7,12 @@
 
 .main {
   @include center();
+  max-width: 80%;
   padding: 50px 35px;
+
   text-align: center;
   justify-content: center;
-  max-width: 80%;
+
   background-color: #fff;
 
   border: 1px solid transparent;
@@ -58,29 +60,33 @@
   text-align: left;
 }
 .input-wrap {
-  margin-bottom: 16px;
   display: flex;
-  justify-content: flex-start;
   width: 100%;
+  margin-bottom: 16px;
+
+  justify-content: flex-start;
 }
 input,
 label {
-  border: 1px solid transparent;
-  line-height: 30px;
   height: 30px;
   padding: 0;
   margin: 0;
+
+  line-height: 30px;
+  border: 1px solid transparent;
 }
 input {
-  margin-bottom: 2px;
-  margin-left: -47px;
-  padding: 8px;
-  border-radius: 5px;
-  border-color: #060151;
-  text-indent: 5px;
   width: 100%;
   max-width: 184px;
   height: 27px;
+  padding: 8px;
+  margin-bottom: 2px;
+  margin-left: -47px;
+
+  text-indent: 5px;
+
+  border-radius: 5px;
+  border-color: #060151;
 
   transition: 0.2s;
 }
@@ -90,17 +96,20 @@ input:focus {
   outline: 0;
 }
 label {
-  z-index: 2;
-  float: left;
-  height: 10px;
-  line-height: 10px;
-  padding: 0px 3px 0px 3px;
   position: relative;
   left: 14px;
   top: -8px;
+  z-index: 2;
+
+  float: left;
+  height: 10px;
+  padding: 0px 3px 0px 3px;
+
   color: #060151;
-  background-color: #fff;
   font-size: 14px;
+  line-height: 10px;
+
+  background-color: #fff;
 }
 body,
 input {
@@ -109,8 +118,8 @@ input {
   font-family: sans-serif;
 }
 body {
-  background: rgb(241, 241, 241);
   padding-top: 25px;
+  background: rgb(241, 241, 241);
 }
 
 //Hide arrows in number input
@@ -126,20 +135,28 @@ input[type="number"] {
 }
 
 .button {
-  border: none;
-  border-radius: 5px;
-  background-color: #060151;
-  color: #fff;
-
   width: 113px;
   height: 35px;
+
+  margin-top: 30px;
+
+  color: #fff;
   font-weight: bold;
   letter-spacing: 1px;
 
-  margin-top: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #060151;
+  box-shadow: 0 2px 5px grey;
   cursor: pointer;
 
-  box-shadow: 0 2px 5px grey;
+  &:hover {
+    background-color: #0601519f;
+    transition: 0.7s;
+  }
+  &:focus {
+    background-color: #030025;
+  }
 }
 
 #hiddenX,

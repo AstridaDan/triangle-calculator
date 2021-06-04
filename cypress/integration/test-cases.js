@@ -56,4 +56,14 @@ describe('Test Cases', () => {
         cy.get('[data-testid=Cx]').should('have.text', '75')
         cy.get('[data-testid=Cy]').should('have.text', '129.9038105676658')
     })
+    it('Fourth case', () => {
+        cy.visit('/')
+  
+        cy.get('[data-testid=aSide]').type('0')
+        cy.get('[data-testid=bSide]').type('2')
+        cy.get('[data-testid=cSide]').type('3')
+  
+        cy.get('[data-testid=button]').click()     
+        cy.get('[data-testid=info]').contains('not possible')
+    })
   })
