@@ -14,7 +14,12 @@ It contains : <br>
 You can input only whole numbers. <br>
 Calculator outputs text within the visual field. For example: "Triangle is equilateral ".
  <br><br>
- <i> Some cases are tested with Cypress. </i>
+ <i> Some cases are tested with Cypress. </i><br>
+ <i> Info for testing ! </i>
+  To go on the same server - if you use Visual Studio code -
+  Download extension - Live Server. And then - Go Live
+  If you don't use Visual studio code, you can run tests on command line.
+  Use : npx cypress run 
 <br> <br>
  
  Have a look at it on GitHub Pages : https://astridadan.github.io/triangle-calculator/
