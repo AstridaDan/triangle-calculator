@@ -2,7 +2,6 @@
 <b>Triangle Draw<b>
 
 This calculator can be used through the web. <br>
-<br>
 You can calculate different types of triangles. 
  <br><br>
 It contains : <br>
