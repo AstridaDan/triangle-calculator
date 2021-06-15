@@ -3,12 +3,15 @@
 
 This calculator can be used through the web. <br>
 <br><br>
-You can calculate different types of triangles. <br>
+You can calculate different types of triangles. 
+ <br><br>
 It contains : <br>
-Drawing window <br>
-Three input fields <br>
-Calculate Button <br>
-
+ <ul>
+  <li> Drawing window <br> </li>
+  <li> Three input fields <br> </li>
+  <li> Calculate Button <br> </li>
+ </ul>
+<br>
 You can input only whole numbers. <br>
 Calculator outputs text within the visual field. For example: "Triangle is equilateral ".
  <br><br>
