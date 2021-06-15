@@ -15,3 +15,6 @@ You can input only whole numbers. <br>
 Calculator outputs text within the visual field. For example: "Triangle is equilateral ".
  <br><br>
  <i> Some cases are tested with Cypress. </i>
+<br> <br>
+ 
+ Have a look at it on GitHub Pages : https://astridadan.github.io/triangle-calculator/
